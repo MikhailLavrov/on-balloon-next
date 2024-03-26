@@ -1,0 +1,10 @@
+@import '../styles/mixins.scss';
+@import '../styles/vars.scss';
+
+.breadcrumbs {
+  display: none;
+
+  @include vp-1260 {
+    display: block;
+  }
+}
