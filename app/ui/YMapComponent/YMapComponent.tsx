@@ -14,9 +14,8 @@ export const YMapComponent = () => {
       apikey: process.env.NEXT_PUBLIC_YMAP_APIKEY || ''
     }}>
       <Map defaultState={defaultState}>
-        <Placemark geometry={[59.553954, 30.104746]} />
+        <Placemark geometry={defaultState.center} />
       </Map>
     </YMaps>
   );
 }
-

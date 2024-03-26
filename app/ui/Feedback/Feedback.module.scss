@@ -83,6 +83,8 @@
 
   background-color: $base-light-color;
 
+  box-sizing: border-box;
+
   @include vp-1260 {
     height: 100%;
     padding: 40px;

@@ -22,7 +22,7 @@ export const Feedback = () => {
   }, [dispatch]);
   
   return (
-    <section className={c.feedback} id='feedback_section'>
+    <section className={c.feedback}>
       <div className={c.feedback__formWrapper}>
         <h2 className={c.feedback__formTitle}>Возникли вопросы?</h2>
         <p className={c.feedback__formSubtitle}>Заполните форму ниже, мы вам перезвоним. <br />Поможем с концепцией, воплотим любую идею!</p>
@@ -35,7 +35,6 @@ export const Feedback = () => {
             </div>
           )
           : 
-          // <CallbackForm className={c.callMeBack__form} />
           <CallbackForm/>
           }
         </div>

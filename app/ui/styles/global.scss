@@ -23,6 +23,10 @@ body {
   background-color: $base-light-color;
 }
 
+main {
+  flex-grow: 1;
+}
+
 a,
 button {
   font-family: $ff-tilda;
