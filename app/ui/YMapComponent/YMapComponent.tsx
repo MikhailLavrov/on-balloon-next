@@ -13,9 +13,10 @@ export const YMapComponent = () => {
     <YMaps query={{
       apikey: process.env.NEXT_PUBLIC_YMAP_APIKEY || ''
     }}>
-      <Map defaultState={defaultState} height={200}>
+      <Map defaultState={defaultState}>
         <Placemark geometry={[59.553954, 30.104746]} />
       </Map>
     </YMaps>
   );
 }
+

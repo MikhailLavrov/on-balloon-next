@@ -4,7 +4,7 @@ import c from './Feedback.module.scss';
 import { MailOutlined, PhoneOutlined } from '@ant-design/icons';
 import { personalData } from '@/app/data/personalData';
 import { SocialLinks } from '@/app/ui/SocialLinks/SocialLinks';
-// import { CallbackForm } from '../CallbackForm/CallbackForm';
+import { CallbackForm } from '../CallbackForm/CallbackForm';
 import { useEffect } from 'react';
 import { YMapComponent } from '@/app/ui/YMapComponent/YMapComponent';
 import { useAppDispatch, useAppSelector } from '@/app/lib/store/hooks';
@@ -36,7 +36,7 @@ export const Feedback = () => {
           )
           : 
           // <CallbackForm className={c.callMeBack__form} />
-          <div>sdf</div>
+          <CallbackForm/>
           }
         </div>
       </div>
