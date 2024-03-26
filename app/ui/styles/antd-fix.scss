@@ -1,0 +1,30 @@
+.ant-menu-submenu-title{
+  display: flex !important;
+}
+
+.ant-menu-title-content {
+  order: 1;
+}
+
+.anticon.anticon-caret-down.ant-menu-item-icon {
+  order: 2;
+  padding-left: 5px;
+}
+
+.catalogCardModal__tabs {
+
+  @media (max-width: $vp-500) {
+
+    & .ant-tabs-tab {
+      margin-left: 15px !important;
+      
+      & .ant-tabs-tab-icon {
+        margin-right: 5px !important;
+      }
+    }
+  }
+}
+
+.ant-drawer-body {
+  padding-bottom: 80px !important;
+}

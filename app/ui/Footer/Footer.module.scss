@@ -1,0 +1,20 @@
+@import '../styles/vars.scss';
+
+.footer {
+  margin: 0;
+  padding: 15px 0;
+
+  font-family: $ff-tilda;
+  font-size: $fz-s;
+  color: $base-dark-color;
+  
+  background-color: $color-2-grey;
+  box-shadow: 0 20px 15px -25px $base-dark-color inset;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
