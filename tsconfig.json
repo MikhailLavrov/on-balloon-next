@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/ui/SvgIcon/SvgIcon.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/ui/SvgIcon/SvgIcon.tsx", "app/data/advantagesData.js"],
   "exclude": ["node_modules"]
 }
