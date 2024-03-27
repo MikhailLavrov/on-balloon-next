@@ -1,8 +1,9 @@
-// @import 'swiper/css/bundle';
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 @import './vars.scss';
 @import './mixins.scss';
 @import './antd-fix.scss';
 @import './global.scss';
 // @import '../components/Hero/HeroSwiper.scss';
-// @import '../components/GallerySection/GallerySwiper.scss';
 // @import '../components/HitsSection/HitsSwiper.scss';
