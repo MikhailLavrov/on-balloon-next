@@ -1,8 +1,8 @@
-import IMG_32432423 from '../../assets/catalog/bubbles.webp';
-import IMG_965664223 from '../../assets/catalog/crio.webp';
-import IMG_965664d223 from '../../assets/catalog/balloons/additional/222186.webp';
-import IMG_965664ed223 from '../../assets/catalog/balloons/additional/501524.webp';
-import IMG_965664ad223 from '../../assets/catalog/balloons/additional/6014369.webp';
+import IMG_32432423 from '@/public/catalog/bubbles.webp';
+import IMG_965664223 from '@/public/catalog/crio.webp';
+import IMG_965664d223 from '@/public/catalog/balloons/additional/222186.webp';
+import IMG_965664ed223 from '@/public/catalog/balloons/additional/501524.webp';
+import IMG_965664ad223 from '@/public/catalog/balloons/additional/6014369.webp';
 
 export const animationData = [
   {

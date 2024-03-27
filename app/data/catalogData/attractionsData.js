@@ -1,6 +1,6 @@
-import IMG_111542123 from '../../assets/catalog/cotton.webp';
-import IMG_455542423 from '../../assets/catalog/skazka.webp';
-import IMG_155542423 from '../../assets/catalog/popcorn.webp';
+import IMG_111542123 from '@/public/catalog/cotton.webp';
+import IMG_455542423 from '@/public/catalog/skazka.webp';
+import IMG_155542423 from '@/public/catalog/popcorn.webp';
 
 export const attractionsData = [
   {

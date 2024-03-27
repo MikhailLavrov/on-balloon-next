@@ -1,5 +1,5 @@
-import IMG_photozone_0_901760P_1 from '../../assets/catalog/photozone/photozone_0_901760P_1.webp';
-import IMG_photozone_12_901762OP_1 from '../../assets/catalog/photozone/photozone_12_901762OP_1.webp';
+import IMG_photozone_0_901760P_1 from '@/public/catalog/photozone/photozone_0_901760P_1.webp';
+import IMG_photozone_12_901762OP_1 from '@/public/catalog/photozone/photozone_12_901762OP_1.webp';
 
 export const photozoneData = [
   {

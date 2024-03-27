@@ -17,7 +17,6 @@ export const heroSwiperParams = {
 
 export const gallerySliderParams = {
   dots: false,
-  slidesToShow: 5,
   arrows: false,
   autoplay: true,
   speed: 8000,
@@ -25,6 +24,7 @@ export const gallerySliderParams = {
   infinite: true,
   cssEase: "linear",
   pauseOnHover: false,
+  slidesToShow: 5,
   responsive: [
     {
       breakpoint: 1260,
@@ -47,20 +47,26 @@ export const gallerySliderParams = {
   ]
 };
 
-export const hitsSwiperParams = {
-  spaceBetween: 10,
-  breakpoints: {
-    0: {
-      slidesPerView: 3,
+export const hitsSliderParams = {
+  slidesToShow: 5,
+  responsive: [
+    {
+      breakpoint: 1260,
+      settings: {
+        slidesToShow: 5,
+      }
     },
-    500: {
-      slidesPerView: 3,
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4,
+      }
     },
-    768: {
-      slidesPerView: 4,
-    },
-    1260: {
-      slidesPerView: 5,
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 3,
+      }
     }
-  }
+  ]
 };

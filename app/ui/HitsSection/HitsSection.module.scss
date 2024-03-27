@@ -1,0 +1,49 @@
+@import '../styles/mixins.scss';
+@import '../styles/vars.scss';
+
+.hits {
+  padding: 15px 0 0;
+
+  text-align: center;
+  font-family: $ff-tilda;
+  background-color: $base-light-color;
+
+  overflow: hidden;
+
+  & * {
+    user-select: none;
+  }
+  
+  @include vp-1260 {
+    padding: 20px 0 0;
+  }
+}
+
+.hits__title {
+  margin: 0;
+  margin-bottom: 15px;
+  
+  position: relative;
+
+  color: $base-dark-color;
+  font-size: $fz-s;
+  font-weight: 500;
+
+  @include vp-768 {
+    margin-bottom: 20px;
+
+    font-size: $fz-m;
+  }
+}
+
+.hits__showMoreLink {
+  position: absolute;
+
+  content: "";
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  font-size: $fz-s;
+  color: $base-dark-color;
+}
