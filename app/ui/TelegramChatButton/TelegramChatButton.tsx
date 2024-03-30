@@ -1,5 +1,5 @@
 import React from 'react';
-import { secretsData } from './../../data/secrets';
+import { secretsData } from '@/app/data/secrets';
 
 interface TelegramChatButtonProps {
   buttonText: string;

@@ -1,7 +1,7 @@
 import { personalData } from '@/app/data/personalData';
 import c from './SocialLinks.module.scss';
 import Link from 'next/link';
-import { SocialIcon } from './SocialIcon';
+import { SocialIcon } from "@/app/ui/SocialLinks/SocialIcon";
 
 export const SocialLinks = () => {
   return (

@@ -24,7 +24,7 @@ export default function ReviewsPage() {
 
   return (
     <section className={c.reviewsPage}>
-      <div className={`${c.reviewsPage__container} container`}>
+      <div className={`container`}>
       <Breadcrumbs pageName={'Отзывы'} />
         <h2 className={c.reviewsPage__title}>Отзывы</h2>
         <div className={c.reviewsPage__innerContainer}>

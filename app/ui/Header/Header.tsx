@@ -1,7 +1,5 @@
-export default function Header() {
+export const HeaderComponent = () => {
   return (
-    <div>
-      Header
-    </div>
-  );
+      <div>Header!!!</div>
+  )
 }

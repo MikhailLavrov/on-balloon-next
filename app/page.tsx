@@ -1,8 +1,8 @@
+import { ReviewsSection } from '@/app/ui/ReviewsSection/ReviewsSection';
+import { GallerySection } from '@/app/ui/GallerySection/GallerySection';
 import { Feedback } from '@/app/ui/Feedback/Feedback';
-import { ReviewsSection } from './ui/ReviewsSection/ReviewsSection';
-import { GallerySection } from './ui/GallerySection/GallerySection';
-import { Advantages } from './ui/Advantages/Advantages';
-import { HitsSection } from './ui/HitsSection/HitsSection';
+import { Advantages } from '@/app/ui/Advantages/Advantages';
+import { HitsSection } from '@/app/ui/HitsSection/HitsSection';
 
 export default function Home() {
   return (

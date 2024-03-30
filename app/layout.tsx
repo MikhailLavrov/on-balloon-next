@@ -1,11 +1,11 @@
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 import { Metadata } from 'next';
-// import "./globals.scss";
-import './ui/styles/styles.scss';
+import '@/app/ui/styles/styles.scss';
 import localFont from 'next/font/local'
-import Header from './ui/Header/Header';
-import { FooterComponent } from './ui/Footer/Footer';
-import StoreProvider from './lib/store/StoreProvider';
+import { HeaderComponent } from '@/app/ui/Header/Header';
+import { FooterComponent } from '@/app/ui/Footer/Footer';
+import StoreProvider from '@/app/lib/store/StoreProvider';
+import React from "react";
  
 const TildaSans = localFont({
   src: [
@@ -55,7 +55,7 @@ export default function RootLayout({
       <html lang="ru">
         <body className={TildaSans.className}>
           <AntdRegistry>
-            <Header />
+            <HeaderComponent />
               {children}
             <FooterComponent />
           </AntdRegistry>

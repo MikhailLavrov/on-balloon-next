@@ -3,12 +3,12 @@
 import { Image, ConfigProvider } from 'antd';
 import c from './GalleryPage.module.scss';
 import { galleryData } from '@/app/data/galleryData';
-import { Breadcrumbs } from '../ui/Breadcrumbs/Breadcrumbs';
-import { FloatButtonComponent } from '../ui/FloatButton/FloatButton';
+import { Breadcrumbs } from '@/app/ui/Breadcrumbs/Breadcrumbs';
+import { FloatButtonComponent } from '@/app/ui/FloatButton/FloatButton';
 
 const { PreviewGroup } = Image;
 
-export default function GalleryPage() {
+export default async function GalleryPage() {
   return (
     <section className={c.gallery}>
       <div className='container'>
@@ -27,7 +27,12 @@ export default function GalleryPage() {
           >
             <PreviewGroup >
               {galleryData.map((image, index) => (
-                <Image key={index} src={image.src} alt={`Image ${index}`} className='galleryImage' />
+                <Image
+                  key={index}
+                  src={image.src}
+                  alt={`Image ${index}`}
+                  className='galleryImage'
+                />
               ))}
             </PreviewGroup>
           </ConfigProvider>

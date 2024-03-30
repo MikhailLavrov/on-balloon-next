@@ -9,7 +9,7 @@ import { photozoneData } from '@/app/data/catalogData/photozoneData';
 import { hitsSliderParams } from '@/app/data/sliderParams';
 import Link from 'next/link';
 import Slider from "react-slick";
-import { CatalogCard } from '../CatalogCard/CatalogCard';
+import { CatalogCard } from "@/app/ui/CatalogCard/CatalogCard";
 
 const allData = [...animationData, ...attractionsData, ...balloonsData, ...photozoneData];
 const hitsData = allData.filter((item) => item.hit);
@@ -31,7 +31,7 @@ export const HitsSection = () => {
             <RightOutlined />
           </Link>
         </h2>
-        <div className={c.hits__content}>
+        <div>
           <div className='hits__slider hits__slider--main'>
             <Slider {...hitsSliderParams}>
               {hitsSlide}
